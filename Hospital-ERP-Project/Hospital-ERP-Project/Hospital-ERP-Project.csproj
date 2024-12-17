@@ -6,5 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Hospital_ERP_Project</RootNamespace>
   </PropertyGroup>
+	<ImportGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.8" />
+	</ImportGroup>
 
 </Project>

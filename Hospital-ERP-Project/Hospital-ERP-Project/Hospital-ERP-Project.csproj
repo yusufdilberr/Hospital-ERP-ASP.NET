@@ -6,9 +6,19 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Hospital_ERP_Project</RootNamespace>
   </PropertyGroup>
-	<ImportGroup>
-		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.8" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.8" />
-	</ImportGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.35" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.35" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.35" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.35">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.18" />
+		
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\Hospital.Repositories\Hospital.Repositories.csproj" />
+	</ItemGroup>
 
 </Project>

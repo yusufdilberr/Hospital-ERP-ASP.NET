@@ -14,5 +14,6 @@ namespace Hospital.Repositories
         {
 
         }
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
     }
 }
